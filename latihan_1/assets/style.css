@@ -1,0 +1,19 @@
+.left {
+    float: left;
+    width: 20%;
+}
+
+.right {
+    float: right;
+    width: 70%;
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 4px;
+    margin: 2px;
+}
+
+section {
+    clear: both;
+}
