@@ -27,6 +27,7 @@
         .box {
             line-height: 1.6;
             color:red;
+            background-color: #f0f0f0;
         }
         .left {
             float: left;
@@ -35,4 +36,12 @@
         .right {
             float: right;
             width: 50%;
+        }
+        #education-history {
+            margin-top: 20px;
+            background-color: red;
+        }
+        section{
+            margin-bottom: 20px;
+            clear: both;
         }
