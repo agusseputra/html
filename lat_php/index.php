@@ -44,7 +44,8 @@
                             <tr>
                                 <td>Nama</td>
                                 <td>:</td>
-                                <td><input type="text" name="nama" value="" placeholder="Tulisakan Nama Anda" /><br />
+                                <td>
+                                    <input type="text" name="nama" value="" placeholder="Tulisakan Nama Anda" /><br />
                                     <small style="color: red" id="err_nama"></small>
                                 </td>
                             </tr>

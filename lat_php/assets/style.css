@@ -5,6 +5,10 @@ body {
 .container {
     width: 1024px;
     margin: auto;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
 }
 
 .header {
