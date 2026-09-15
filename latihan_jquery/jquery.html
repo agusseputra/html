@@ -15,9 +15,8 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
 
-<body>
-    <div class="bg-white">
-        <header class="absolute inset-x-0 top-0 z-50">
+<body class="bg-white">
+       <header class="absolute inset-x-0 top-0 z-50">
             <nav aria-label="Global" class="flex items-center justify-between p-6 lg:px-8">
                 <div class="flex lg:flex-1">
                     <a href="#" class="-m-1.5 p-1.5">
@@ -49,7 +48,7 @@
                 </div>
             </nav>
         </header>
-        <main class="min-h-screen bg-gray-100 flex items-center justify-center">
+        <main class="min-h-screen bg-gray-100 flex items-center justify-center">            
             <div class="bg-white shadow-lg rounded-xl p-6 w-full max-w-md">
                 <h1 class="text-2xl font-bold text-center mb-4">Kalkulator Luas</h1>
 
@@ -59,8 +58,8 @@
                     <option value="segitiga">Segitiga</option>
                 </select>
 
-                <div id="inputFields" class="space-y-3 mb-4">
-                    <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2" id="inputsegitiga">
+                <div id="inputFields" class="space-y-3 mb-4 grid">
+                    <div class="grid grid-cols-2 gap-x-8 gap-y-6 sm:grid-cols-2" id="inputsegitiga">
                         <div>
                             <label for="first-name" class="block text-sm/6 font-semibold text-gray-900">Alas</label>
                             <div class="mt-2.5">
@@ -76,7 +75,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2" id="inputpersegi">
+                    <div class="grid grid-cols-2 gap-x-8 gap-y-6 sm:grid-cols-2" id="inputpersegi">
                         <div>
                             <label for="first-name" class="block text-sm/6 font-semibold text-gray-900">Sisi</label>
                             <div class="mt-2.5">
@@ -87,15 +86,13 @@
                     </div>
                 </div>
 
-                <button id="hitungBtn" class="w-full bg-blue-600 text-white p-2 rounded-md hover:bg-blue-700">Hitung
+                <button id="hitungBtn" class="w-full bg-blue-600  text-white p-2 rounded-md hover:bg-indigo-700">Hitung
                     Luas</button>
-
+                    
                 <p id="hasil" class="text-center mt-4 text-lg font-semibold">Hasil: -</p>
             </div>
 
         </main>
-
-    </div>
 
     <script type="text/javascript">
         $('#hitungBtn').click(function () {
